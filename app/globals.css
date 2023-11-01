@@ -13,3 +13,13 @@ body{
     background-size: cover;
 }
 
+.catImg:hover > div {
+    display:block;
+    cursor:pointer
+}
+.catImg:hover{
+    background:black;
+}
+.catImg div:hover{
+    display:block
+}
