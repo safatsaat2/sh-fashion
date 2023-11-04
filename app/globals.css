@@ -15,11 +15,14 @@ body{
 
 .catImg:hover > div {
     display:block;
-    cursor:pointer
+    cursor:pointer;
 }
 .catImg:hover{
     background:black;
 }
 .catImg div:hover{
     display:block
+}
+.catImg:hover > img{
+    opacity: 0.5;
 }

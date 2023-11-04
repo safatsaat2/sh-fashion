@@ -1,4 +1,5 @@
 import { Banner } from "./components/home/Banner";
+import BrandWork from "./components/home/BrandWork";
 import {Category} from "./components/home/Category";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
     <Banner/>
     <Category/>
+    <BrandWork/>
     </>
   )
 }
