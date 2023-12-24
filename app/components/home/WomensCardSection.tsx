@@ -40,9 +40,9 @@ const WomensCardSection = ({ name }: Props) => {
         WOMEN’S FASHION
       </p>
       <p className="text-[15px] text-[#22262A] font-poppins text-center mt-4">Shop our new arrivals from established brands</p>
-      <div className="flex justify-center items-center gap-[22px] mt-[65px]">
-        {cardItem.map(card => <div >
-            <img src={card?.img} alt="" />
+      <div className="flex justify-center items-center gap-[22px] mt-[65px] ">
+        {cardItem.map(card => <div className=" hover:-mt-4 duration-300 cursor-pointer">
+            <img className="rounded-xl" src={card?.img} alt="" />
             <p className="text-[15px] text-[#22262A] font-poppins font-light mt-[38px]">{card?.brand}</p>
             <p className="text-[15px] text-[#22262A] font-poppins font-semibold">{card?.name}</p>
             
