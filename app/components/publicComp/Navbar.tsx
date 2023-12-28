@@ -9,6 +9,7 @@ export const Navbar = () => {
             <p className="cursor-pointer">HOME</p>
             <p className="cursor-pointer">SHOP</p>
             <p className="cursor-pointer">LOOKBOOK</p>
+            <p className="cursor-pointer">Gallery</p>
             <p className="cursor-pointer">FEATURES</p>
             <p className="cursor-pointer">PAGES</p>
             <p className="cursor-pointer">BLOG</p>
